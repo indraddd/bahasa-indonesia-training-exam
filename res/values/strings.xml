@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ujian Bin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ujian">Ujian</string>
+    <string name="bhs">Pembahasan</string>
+    <string name="traffic">Traffic Stats</string>
+    <string name="rb">Receive Bytes</string>
+    <string name="tb">Transmit Bytes</string>
+	<string name="ts">Traffic Stats</string>
+    <string name="txtmenu"> Indra Utama © 2015 </string>
+    <string name="swit">Mute TTS</string>
+    <string name="pilA">A.</string>
+    <string name="pilB">B.</string>
+    <string name="pilC">C.</string>
+    <string name="pilD">D.</string>
+    <string name="pilE">E.</string>
+    <string name="no"> No </string>
+    <string name="pmb"> Pembahasan </string>
+    <string name="no1"> E. di·gi·tal a berhubungan dng angka-angka untuk sistem perhitungan tertentu; berhubungan dng penomoran (KBBI)</string>
+    <string name="no2"> C. Laporan tersebut merupakan laporan hasil percobaan yang telah dilakukan oleh Grofrey Coates, yakni membuat bahan plastic yang mudah terurai dari kulit jeruk. Inilah jawaban yang benar.</string>
+    <string name="no3"> E. Kata “resiko” akan dirujuk ke kata “risiko” sebab kata bakunya adalah “risiko” bukan “resiko”.</string>
+    <string name="no4"> B. ko·no·ta·si n ling tautan pikiran yg menimbulkan nilai rasa pd seseorang ketika berhadapan dng sebuah kata; </string>
+	<string name="no5"> B. Cukup jelas. Untuk mendalami lebih jauh tentang makna kata, pelajari Tata Bahasa Baku Bahasa Indonesia, terutama yang berhubungan dengan makna imbuhan.</string>
+	<string name="no6"> C. ung·kap·an n 1 apa-apa yg diungkapkan: ~ kedua saksi itu benar adanya;</string>
+	<string name="no7"> B. Latar atau setting adalah tempat, waktu, dan suasana dalam sebuah cerita.</string>
+	<string name="no8"> A. alur adalah jalan cerita sebuah karya sastra. Secara garis besar tahapan alur dalam sebuah cerita antara lain: Perkenalan, pemunculan masalah (konflik), puncak masalah (klimaks), penurunan masalah (peleraian), penyelesaian</string>
+	<string name="no9"> C. Jika unsur intrinsik novel mencakup apa-apa yang wajib ada (alur, plot, tema cerita, penokohan, amanat, latar cerita), unsur ekstrinsik novel adalah unsur penting yang berada di luar wilayah novel tersebut. </string>
+	<string name="no10"> B. Kalimat yang dirumpangkan maksudnya kalimat yang sebagian kata nya dihilangkan. Untuk melengkapi kalimat tersebut kita harus memperhatikan kata-kata sebelum dan sesudahnya, sehingga kalimat tersebut menjadi padu.</string>
+	<string name="no11"> A. Gagasan Utama adalah pikiran utama yang terdapat dalam bacaan. Kalimat utama dalam satu paragraf selalu terletak di awal atau di akhir paragraf, kecuali pada paragraf deskripsi. Pada paragraf deskripsi, kalimat utama dapat berada di tengah paragraf. </string>
+	<string name="no12"> C. Simpulan adalah hasil dari menyimpulkan (kesimpulan). Kesimpulan adalah ikhtisar, pendapat terakhir yang didasarkan pada hal-hal yang diuraian di dalam paragraf.</string>
+	<string name="no13"> C. Amanat adalah pesan yang ingin disampaikan pengarang kepada pembaca. </string>
+	<string name="no14"> C. Cukup Jelas. </string>
+	<string name="no15"> D. Penggalan laporan di atas termasuk laporan perjalanan sebab isinya adalah sebuah perjalanan yang dilakukan oleh “kami”, yang berkunjung ke beberapa tempat dengan dalam waktu tertentu.</string>
+	<string name="no16"> A. Paragraf di atas termasuk paragraf deduktif, sebab  gagasan pokok (gagasan utamanya) ada di awal paragraf, yaitu “membanjirnya produk negeri Tirai Bambu”.</string>
+	<string name="no17"> D. Kalimat poster yang cocok  sesuai ilustrasi di atas adalah Selamatkan bumi untuk anak cucu kita. Kalimat ini lebih persuasif mengajak kita untuk menjaga alam agar terhindari dari berbagai bencana.</string>
+	<string name="no18"> E. Latar dalam penggalan novel di atas mendeskripsikan keadaan di pelabuhan. Hal  ini terlihat dari semua kalimat yang ada pada penggalan novel tersebut.</string>
+	<string name="no19"> E. Tangan dingin artinya sifat selalu membawa hasil (terutama usaha pertanian, pengobatan, dsb). Ungkapan yang paling sesuai dengan kesuksesan Kaelani dalam paragraf di atas adalah tangan dingin. 
+</string>
+	
+	<string name="no20"> B. Bagian yang dirumpangkan harus diisi dengan kalimat menggunakan kata penghubung  akan tetapi sebab isinya  menyatakan pertentangan dengan kalimat sebelumnya. </string>
+	
+    
+    
+    
+
+</resources>

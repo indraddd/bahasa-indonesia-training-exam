@@ -1,0 +1,143 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/bg">    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Large Text"
+            android:fontFamily="sans-serif"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="0.04" >
+            <RadioButton
+                android:id="@+id/radio0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:text="@string/pilA" />
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"                
+                android:text="@string/pilB" />
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+	            android:textColor="#000000"
+                android:text="@string/pilC" />
+        	<RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+	            android:textColor="#000000"	            
+                android:text="@string/pilD" />
+        	<RadioButton
+                android:id="@+id/radio4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+	            android:textColor="#000000"  
+                android:text="@string/pilE" />
+        </RadioGroup>
+        
+        <TextView
+            android:id="@+id/txtText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/radioGroup1"
+            android:visibility="invisible"
+            android:layout_gravity="center_vertical|right"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+        
+        <ProgressBar 
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtText"
+            android:padding="10dp"
+            android:visibility="invisible"
+            android:layout_centerInParent="true"/>
+        
+        <Switch
+    	    android:id="@+id/switch1"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_centerInParent="true"
+    	    android:textOn="aktif"
+    	    android:textOff="tidak aktif"
+    	    android:layout_below="@+id/progressBar1"
+    	    android:text="@string/swit" />
+        
+        <ToggleButton
+        	android:id="@+id/toggleButton1"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@+id/switch1"
+        	android:layout_centerInParent="true"/>
+    
+    	<Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/toggleButton1"
+            android:paddingLeft="10dp"
+     		android:paddingRight="10dp"
+            android:text="Selanjutnya"/>
+ <!--       
+        <Button
+                android:id="@+id/button0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="sayit"
+                android:layout_below="@+id/radioGroup1"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"
+                android:text="Bacakan"/>
+          
+        <ImageButton
+        		android:id="@+id/btnSpeak"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:contentDescription="Speak"
+        		android:onClick="voice"
+        		android:text="Jawab"
+        		android:clickable="false"
+        		android:src="@android:drawable/ic_btn_speak_now" />
+
+		<Button
+        		android:id="@+id/btnSpeak"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:contentDescription="Speak"
+        		android:onClick="voice"
+        		android:gravity="center"
+        		android:layout_below="@+id/txtText"
+        		android:paddingLeft="10dp"
+        		android:paddingRight="10dp"
+        		android:text="Jawab"/>
+-->
+
+    	
+                
+    </RelativeLayout>
+ </ScrollView>

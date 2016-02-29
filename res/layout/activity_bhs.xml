@@ -1,0 +1,339 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"   
+    android:fillViewport="true">
+
+   <TableLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:padding="5dp">
+    
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top" >
+        
+        <TextView
+            android:text="@string/no"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/pmb"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+    
+   
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
+        <TextView
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+    
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+    
+      <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="7"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no8"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no9"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no10"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no11"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no12"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no13"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no14"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no15"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no16"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no17"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no18"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no19"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+    </TableRow>
+     <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <TextView
+            android:text="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1" />
+        <TextView
+            android:text="@string/no20"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2" />
+        </TableRow>
+</TableLayout>
+</ScrollView>
