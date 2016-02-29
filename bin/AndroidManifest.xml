@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.indraddd.ujianbin"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_bin"
+        android:label="@string/app_name"        
+        android:theme="@style/AppTheme"
+        android:background="@drawable/bg">
+        
+        <receiver android:name=".NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>
+            </intent-filter>
+        </receiver>
+        
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NetworkStateReceiver"
+            android:label="what label"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:background="@drawable/bg">                   
+        </activity>
+        <activity
+            android:name=".BroadcastReceiver"
+            android:label="what label"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:background="@drawable/bg">                   
+        </activity>
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SqliteAssetHelper"
+            android:label="Daftar Soal dan Kunci"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:background="@drawable/bg">                   
+        </activity>
+        <activity
+            android:name=".QuizActivity"
+            android:label="quiz"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:background="@drawable/bg">                   
+        </activity>
+         <activity
+            android:name=".ResultActivity"
+            android:label="result quiz"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:background="@drawable/bg">                   
+        </activity>
+        <activity
+            android:name=".CustRec"
+            android:label="Just try"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:background="@drawable/bg">                   
+        </activity>
+        <activity
+            android:name=".PembahasanActivity"
+            android:label="Just try"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:background="@drawable/bg">                   
+        </activity>
+        <activity
+            android:name=".Ep8Activity"
+            android:label="Just try"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:background="@drawable/bg">                   
+        </activity>
+        <activity
+            android:name=".TrafficMan"
+            android:label="what label"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar"
+            android:background="@drawable/bg">                   
+        </activity>
+        
+    </application>
+</manifest>
